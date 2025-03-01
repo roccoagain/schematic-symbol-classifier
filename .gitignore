@@ -9,3 +9,4 @@ SolvaDataset_200_v3/
 .DS_Store
 .venv/
 venv/
+__pycache__/
