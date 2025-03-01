@@ -1,0 +1,11 @@
+# ignore built models
+symbol_classifier.pth
+symbol_classifier.mlpackage/
+
+# ignore training data
+SolvaDataset_200_v3/
+
+# ignore the devil
+.DS_Store
+.venv/
+venv/
