@@ -64,7 +64,7 @@ class SymbolClassifier(nn.Module):
 num_classes = len(classes)
 model = SymbolClassifier(num_classes)
 model.load_state_dict(
-    torch.load("symbol_classifier.pth", map_location=torch.device("cpu"))
+    torch.load("symbol_classifier.pth", map_location=torch.device("cpu"), weights_only=True)
 )
 model.eval()  # Set model to evaluation mode
 
